@@ -12,7 +12,7 @@ public class Walking : MonoBehaviour
     public float gravity = -9.0f;
     public AudioSource step;
     private CharacterController _charController;
-    // Start is called before the first frame update
+    
     void Start()
     {
         _charController = GetComponent<CharacterController>();
